@@ -1,0 +1,24 @@
+{
+  "name": "dummy-image-cljs",
+  "version": "0.1.0",
+  "description": "",
+  "main": "build/app.js",
+  "scripts": {
+    "start": "node build/app"
+  },
+  "private": true,
+  "author": "tgfjt",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.9.3",
+    "compression": "^1.2.1",
+    "express": "^4.10.4",
+    "gm": "^1.17.0",
+    "helmet": "^0.5.2",
+    "method-override": "^2.3.0",
+    "morgan": "^1.5.0"
+  },
+  "engines": {
+    "node": "~0.10.21"
+  }
+}
